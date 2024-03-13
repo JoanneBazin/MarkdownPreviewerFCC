@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  border: 2px solid black;
+  background: whitesmoke;
+  width: 70%;
+  display: block;
+  margin: 30px auto;
+}
+.container .title {
+  background-color: rgb(155, 144, 144);
+  height: 30px;
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+.edit {
+  height: 250px;
+}
+.edit #editor {
+  width: 98.8%;
+  height: 207px;
+  resize: none;
+}
+
+.render {
+  min-height: 300px;
+  height: fit-content;
+}
+.render #preview {
+  padding: 10px;
+  overflow: hidden;
+}
